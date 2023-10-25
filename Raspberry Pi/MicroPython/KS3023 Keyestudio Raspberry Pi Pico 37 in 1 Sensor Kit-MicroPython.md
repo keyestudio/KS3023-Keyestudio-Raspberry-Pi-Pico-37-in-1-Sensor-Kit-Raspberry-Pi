@@ -1,4 +1,8 @@
- # **Keyestudio Raspberry Pi Pico 37 in 1 Sensor Kit**
+## <span style="color: rgb(255, 76, 65);">Resources</span>
+
+Download code, libraries and more details, please refer to the following link: [https://fs.keyestudio.com/KS3023](https://fs.keyestudio.com/KS3023)
+
+# **Keyestudio Raspberry Pi Pico 37 in 1 Sensor Kit**
 
 ![](/media/ad847dd5a7c48a319805caefda539515.jpeg)
 
@@ -316,7 +320,7 @@ To make you master the electronic knowledge, detailed tutorials(Micropython), sc
 
 **Putty**
 
-Download link:[<span class="underline">https://www.chiark.greenend.org.uk/\~sgtatham/putty/</span>](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
+Download link: [https://www.chiark.greenend.org.uk/~sgtatham/putty/](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
 
 ![](/media/c26be4cd1f5543f20f275556ce5892c0.png)
 
@@ -342,7 +346,7 @@ Download link:[<span class="underline">https://www.chiark.greenend.org.uk/\~sgta
 
 **SSH Remote Login software -WinSCP**
 
-Link:[<span class="underline">https://winscp.net/eng/download.php</span>](https://winscp.net/eng/download.php)
+Link of Download:[https://winscp.net/eng/download.php](https://winscp.net/eng/download.php)
 
 1.  After downloading the package file![](/media/1719daa1002d7477ad4700e1df85d2df.png), click
 ![](/media/e09e48a32781d08aabb06156efe1de49.png).
@@ -366,14 +370,13 @@ Link:[<span class="underline">https://winscp.net/eng/download.php</span>](https:
 Format TFT card tool
 
 Download SD Card Formatter ：
-[<span class="underline">http://www.canadiancontent.net/tech/download/SD\_Card\_Formatter.html</span>](http://www.canadiancontent.net/tech/download/SD_Card_Formatter.html)
+[http://www.canadiancontent.net/tech/download/SD_Card_Formatter.html](http://www.canadiancontent.net/tech/download/SD_Card_Formatter.html)
 
 ![](/media/fa229f4e063572ce1c59574c308bf452.png)
 
 ![](/media/ac5d5eb9463805484b9239b99faf04eb.png)
 
-1.  Unzip the SDCardFormatterv5\_WinEN package, double-click
-![](/media/8c6f8da97bf702080a8e302db2e9f982.png) to run it.
+1.  Unzip the SDCardFormatterv5\_WinEN package, double-click ![](/media/8c6f8da97bf702080a8e302db2e9f982.png) to run it.
 
 ![](/media/046c67e4072093ee3dad27e8088fcf9f.png)
 
@@ -395,8 +398,7 @@ Download SD Card Formatter ：
 
 **Win32DiskImager**
 
-Download link:
-[<span class="underline">https://sourceforge.net/projects/win32diskimager/</span>](https://sourceforge.net/projects/win32diskimager/)
+Download link: [https://sourceforge.net/projects/win32diskimager/](https://sourceforge.net/projects/win32diskimager/)
 
 ![](/media/4ffb55fd466198ca9524afbde7806271.png)a. After the download, double-click and tap “Run”.
 
@@ -424,26 +426,22 @@ Click “Finish” after the installation is complete.
 
 **WNetWatcher**
 
-Download：http://www.nirsoft.net/utils/wnetwatcher.zip
+Download：[http://www.nirsoft.net/utils/wnetwatcher.zip](http://www.nirsoft.net/utils/wnetwatcher.zip)
 
 
 #### 3.1.2. Raspberry Pi Imager
 
 Download link for the latest version:
 
-[<span class="underline">https://www.raspberrypi.org/downloads/raspberry-pi-os/</span>](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
+[https://www.raspberrypi.org/downloads/raspberry-pi-os/](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
 
 Old version：
 
-- > Raspbian：https://downloads.raspberrypi.org/raspbian/images/
+- > Raspbian：[https://downloads.raspberrypi.org/raspbian/images/](https://downloads.raspberrypi.org/raspbian/images/)
 
-- > Raspbian full：
+- > Raspbian full：[https://downloads.raspberrypi.org/raspbian\_full/images/](https://downloads.raspberrypi.org/raspbian\_full/images/)
 
-- > https://downloads.raspberrypi.org/raspbian\_full/images/
-
-- > Raspbian lite：
-
-- > https://downloads.raspberrypi.org/raspbian\_lite/images/
+- > Raspbian lite：[https://downloads.raspberrypi.org/raspbian\_lite/images/](https://downloads.raspberrypi.org/raspbian\_lite/images/)
 
 We use the 2020.08.20 version in the tutorial and recommend you to use this version.
 
@@ -750,17 +748,13 @@ You can also provide an external precision voltage-reference on the ADC\_VREF pi
 
 ![](/media/5f7b34935150b0821800fe23c56110bd.png)
 
-Raspberry Pi did release a ton of technical documentation, plus a great guide called *Get Started with MicroPython on Raspberry Pi Pico*. It’s available in softcover, and as a PDF download as well. For more information, please refer to:
-
-https://www.raspberrypi.com/products/raspberry-pi-pico/
+Raspberry Pi did release a ton of technical documentation, plus a great guide called *Get Started with MicroPython on Raspberry Pi Pico*. It’s available in softcover, and as a PDF download as well. For more information, please refer to: [https://www.raspberrypi.com/products/raspberry-pi-pico/](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 
 ### 3.4. Using MicroPython
 
 MicroPython is a lean and efficient implementation of the Python 3 programming language that includes a small subset of the Python standard library and is optimised to run on microcontrollers and in constrained environments. MicroPython is packed full of advanced features such as an interactive prompt, arbitrary precision integers, closures, list comprehension, generators, exception handling and more. Yet it is compact enough to fit and run within just 256k of code space and 16k of RAM. MicroPython aims to be as compatible with normal Python as possible to allow you to transfer code with ease from the desktop to a microcontroller or embedded system.
 
-For more information, please go to the official website:
-
-<https://micropython.org/>
+For more information, please go to the official website: [https://micropython.org/](https://micropython.org/)
 
 **Programming the Pico:** You could use C/C++ or MicroPython. MicroPython is an interpreted language that is made specifically for microcontrollers. Many microcontroller users have familiarity with C/C++ as they are used on the Arduino and ESP32 boards. In this tutorial, we will use Thonny recommended by Raspberry Pi. Thonny bills itself as a “Python IDE for Beginners”, and it is available for Windows, Mac OSX and Linux. It was also part of the Raspberry Pi operating system(formerly Raspbian).
 
@@ -770,7 +764,7 @@ For more information, please go to the official website:
 
 Go to the official website to download the UF2 file:
 
-[https://www.raspberrypi.com/documentation/microcontrollers/\#getting-started-with-micropython](https://www.raspberrypi.com/documentation/microcontrollers/#getting-started-with-micropython，)
+[https://www.raspberrypi.com/documentation/microcontrollers/\#getting-started-with-micropython](https://www.raspberrypi.com/documentation/microcontrollers/#getting-started-with-micropython)
 
 What I downloaded is![](/media/b9acf3a180cc573115d6956dd97473a6.png). Once the download is complete, we proceed to burn the firmware.
 
@@ -1095,18 +1089,19 @@ Code 2: upload the code and power on, the purple LED will flash with the interva
 
 Test Code1:
 
-    '''
-     * Keyestudio 37 in 1 Starter Kit for Raspberry Pi Pico
-     * lesson 1.1
-     * turn on led
-     * http://www.keyestudio.com
+
+     '''
+    * Keyestudio 37 in 1 Starter Kit for Raspberry Pi Pico
+    * lesson 1.1
+    * turn on led
+    * http://www.keyestudio.com
     '''
     from machine import Pin
-    
+      
     led = Pin(0, Pin.OUT)
-    
+      
     led.value(1)
-    
+  
     
 
 
@@ -9480,5 +9475,5 @@ Press the key for seventh time and the remainder is 0. Then the RGB will flash. 
 
 ## 4. Resources
 
-[https://fs.keyestudio.com/KS3023](https://fs.keyestudio.com/KS0470)
+[https://fs.keyestudio.com/KS3023](https://fs.keyestudio.com/KS3023)
 
