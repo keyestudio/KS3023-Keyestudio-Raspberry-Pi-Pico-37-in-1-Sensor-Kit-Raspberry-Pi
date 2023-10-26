@@ -15,289 +15,53 @@ The 37 sensors and modules are fully compatible with the Raspberry Pi Pico shiel
 To make you master the electronic knowledge, detailed tutorials(Micropython), schematic diagrams, wiring methods and test code are included. Through these projects, you will have a better understanding about programming, logic and electronics.
 
 ## 2.Kit
-
-<table>
-<tbody>
-<tr class="odd">
-<td>#</td>
-<td>Picture</td>
-<td>Model</td>
-<td>QTY</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/099048eec26865fd9cc81d8c646c88e7.png" style="width:1.51319in;height:1.14236in" /></td>
-<td>Keyestudio Purple LED Module</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/b83cfda6f21c26037d7f5bd5c403a2c7.png" style="width:1.55139in;height:1.17986in" /></td>
-<td>Keyestudio Common Cathode RGB Module</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/9dd3ad6327733c3b06b61c22c302e22e.png" style="width:1.78889in;height:0.90139in" /></td>
-<td>Keyestudio Traffic Lights Module</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/10e7df934f3065f87ecb0163a49b6a31.png" style="width:1.65556in;height:1.29514in" /></td>
-<td>Keyestudio Active Buzzer</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/65cab276d08d6f29ba1a22359c0376f9.png" style="width:1.78264in;height:0.93958in" /></td>
-<td>Keyestudio 8002b Audio Power Amplifier</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/6f7cbd758d774713bd4181000d7efe1b.png" style="width:1.74514in;height:1.31389in" /></td>
-<td>Keyestudio Button Module</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/b9bd1f0923a6ab801d7b60d6da3d9a5b.png" style="width:1.40208in;height:1.05694in" /></td>
-<td>Keyestudio Tilt Sensor</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/6dcf2be9ac58a9c685ca2f64ffa32dfc.png" style="width:1.31181in;height:0.98819in" /></td>
-<td>Keyestudio PIR Motion Sensor</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/986b897189c79895ffe626348359f634.png" style="width:1.55069in;height:1.13542in" /></td>
-<td>Keyestudio Obstacle Avoidance Sensor</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/a6ad46f7f2fe36fb33c048ea8210aaa7.png" style="width:1.44444in;height:1.09792in" /></td>
-<td>Keyestudio 6812 RGB Module</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/a2093df4945d05379824e2c56bb67b7e.png" style="width:1.56319in;height:1.09514in" /></td>
-<td>Keyestudio NTC-MF52AT Thermisto</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/95346cf9c532dedd488d42b38a8b2649.png" style="width:1.49028in;height:1.16181in" /></td>
-<td>Keyestudio Photoresistor</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>13</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/f5d5feb5d7939f0b022a264608654e34.png" style="width:1.40347in;height:1.02431in" /></td>
-<td>Keyestudio Sound Sensor</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>14</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/39db0983ad86991ac3c1fa7e16e6b6b4.png" style="width:1.3875in;height:1.01806in" /></td>
-<td><p>Keyestudio</p>
-<p>Rotary Potentiometer</p></td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>15</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/907f79d7a0c3500820323343b0ef4681.png" style="width:1.41806in;height:1.05556in" /></td>
-<td>Keyestudio IR Receiver</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>16</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/8f7396128e7b0c2da1273aa050fa85df.png" style="width:1.43056in;height:1.08125in" /></td>
-<td>Keyestudio Reed Switch Sensor</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>17</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/0ef1583b201c7944ba95ac97ee8a4ba8.png" style="width:1.55417in;height:1.16319in" /></td>
-<td>Keyestudio Rotary Encoder Module</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>18</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/a3ae6cf394df0cb2d30de18d1ea0b7ef.png" style="width:1.83403in;height:0.95069in" /></td>
-<td>Keyestudio Joystick Module</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>19</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/af24d0e4bc9435881820504724ad3fcd.png" style="width:2.07778in;height:1.03542in" /></td>
-<td>Keyestudio HT16K33 8X8 Dot Matrix Module</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>20</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/c1d8a69c763b04618d233b77fc97c4ab.png" style="width:2.07708in;height:0.99167in" /></td>
-<td>Keyestudio TM1650 4-Digit Tube Display</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>21</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/d1dd4137f10ccce92747bdd07e8738dd.png" style="width:1.99097in;height:0.67778in" /></td>
-<td>Keyestudio Thin-film Pressure Sensor</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>22</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/aa2ea0a5040ec26cdc6f58256a2b31fc.png" style="width:2.07986in;height:1.05764in" /></td>
-<td>Keyestudio DS1307 Clock Sensor</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>23</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/43028b575a82be10e3ce23c40eb30061.png" style="width:2.07847in;height:1.15139in" /></td>
-<td>Keyestudio SR01 Ultrasonic Sensor</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>24</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/46f3adcf9fc650b3a89bbde6d66f44ef.png" style="width:1.35in;height:1.33958in" /></td>
-<td>9G 90° Servo</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>25</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/a2a2f1b1f850ae58bc740b16d5eb396c.png" style="width:1.32847in;height:0.99931in" /></td>
-<td>Keyestudio Capacitive Sensor</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>26</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/5702e47b7ebc4b8556ee15f83d030f7f.png" style="width:1.37083in;height:1.03681in" /></td>
-<td>Keyestudio Photo Interrupter</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>27</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/f70c9344f352a86cd809f3a2db44e3cb.png" style="width:1.42431in;height:1.06736in" /></td>
-<td>Keyestudio Hall Sensor</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>28</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/af90db3a116c8db533c7fea7e65fa99d.png" style="width:1.58958in;height:0.95278in" /></td>
-<td>Keyestudio Flame Sensor</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>29</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/17d8f616b3d91fe7b7849fd3da8df695.png" style="width:1.38403in;height:1.04722in" /></td>
-<td>Keyestudio line Tracking Sensor</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>30</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/ee4483f37a6f3609acdb661095f4b706.png" style="width:2.07847in;height:1.05in" /></td>
-<td>Keyestudio Analog Gas Sensor</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>31</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/04f2996e6e2b0d8d4b5158728a23e905.png" style="width:1.26667in;height:0.95694in" /></td>
-<td>Keyestudio XHT11 Temperature and Humidity Sensor</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>32</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/d892bdfa25f3544ae28aa16d8b1b3c50.png" style="width:1.375in;height:1.03056in" /></td>
-<td>Keyestudio 18B20 Temperature Sensor</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>33</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/cac2d3a8fd0e147e67dc6554caeef395.png" style="width:1.77708in;height:1.51528in" /></td>
-<td>keyestudio 130 Motor</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>34</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/16f725d5da5b576a79e9299717d811d7.png" style="width:1.15903in;height:1.07778in" /></td>
-<td>Fan</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>35</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/88abe96ca71fe1b89b23d92c890650ee.png" style="width:1.45in;height:0.95347in" /></td>
-<td>Keyestudio Laser Module</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>36</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/b64cdb5749df7d2b7dd3719216c7aff3.png" style="width:1.40764in;height:1.00625in" /></td>
-<td>Keyestudio Steam Sensor</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>37</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/4380c0a29b5226e64113a5b4e7f7a62d.png" style="width:1.35139in;height:1.00625in" /></td>
-<td>Keyestudio Ultraviolet Sensor</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>38</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/530cb53e5b1e1b140de487cfc46be453.png" style="width:1.69653in;height:0.94653in" /></td>
-<td>keyestudio RFID Module</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>39</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/b57492c3f0fcb41347596e415122794e.png" style="width:2.07639in;height:0.83681in" /></td>
-<td>Raspberry Pi Pico Board</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>40</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/8e832bc2c220eb7f18afd18857769b67.png" style="width:2.08056in;height:1.17153in" /></td>
-<td>Keyestudio Raspberry Pico IO Expansion Board</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>41</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/10ccf14d80feba64bba0c1eacd02b09d.png" style="width:2.07222in;height:1.00139in" /></td>
-<td>Keyestudio JMFP-4 17-Key Remote Control(without batteries)</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>42</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/edbfec59fe015bd9987e4b4d542b466d.png" style="width:1.72917in;height:0.71736in" /></td>
-<td>USB Cable</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>43</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/33be6266ae36f54c9e7ffd044eae9320.png" style="width:2.07986in;height:0.64583in" /></td>
-<td>F-F Dupont Wire</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>44</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/ade84f2ad63242834113a981be5d5ef3.png" style="width:1.21528in;height:1.87986in" /></td>
-<td>White Card</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>45</td>
-<td><img src="https://raw.githubusercontent.com/keyestudio/KS3023-Keyestudio-Raspberry-Pi-Pico-37-in-1-Sensor-Kit-Raspberry-Pi/master/media/026296d61d87b05b5167c6425e8a0bd1.png" style="width:1.76736in;height:1.26597in" /></td>
-<td>ABS RFID Key</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
-
+| # | Picture | Model | QTY |
+| :--: | :--: | :--: | :--: |
+| 1 | ![](/media/099048eec26865fd9cc81d8c646c88e7.png) | Keyestudio Purple LED Module |1 |
+| 2| ![](/media/b83cfda6f21c26037d7f5bd5c403a2c7.png )|Keyestudio Common Cathode RGB Module | 1|
+|3 |![](/media/9dd3ad6327733c3b06b61c22c302e22e.png ) |Keyestudio Traffic Lights Module |1 |
+|4 | ![](/media/10e7df934f3065f87ecb0163a49b6a31.png )|Keyestudio Active Buzzer |1 |
+|5 | ![](/media/65cab276d08d6f29ba1a22359c0376f9.png )|Keyestudio 8002b Audio Power Amplifier |1 |
+|6 | ![](/media/6f7cbd758d774713bd4181000d7efe1b.png )|Keyestudio Button Module | 1|
+| 7| ![](/media/b9bd1f0923a6ab801d7b60d6da3d9a5b.png )|Keyestudio Tilt Sensor | 1|
+| 8| ![](/media/6dcf2be9ac58a9c685ca2f64ffa32dfc.png )|Keyestudio PIR Motion Sensor |1 |
+| 9|![](/media/986b897189c79895ffe626348359f634.png ) | Keyestudio Obstacle Avoidance Sensor|1 |
+|10 |![](/media/a6ad46f7f2fe36fb33c048ea8210aaa7.png ) |	Keyestudio 6812 RGB Module |1 |
+|11 |![](/media/a2093df4945d05379824e2c56bb67b7e.png ) | Keyestudio NTC-MF52AT Thermistor|1 |
+| 12|![](/media/95346cf9c532dedd488d42b38a8b2649.png ) |	Keyestudio Photoresistor |1 |
+|13 |![](/media/f5d5feb5d7939f0b022a264608654e34.png ) | Keyestudio Sound Sensor|1 |
+|14 |![](/media/39db0983ad86991ac3c1fa7e16e6b6b4.png ) | Keyestudio Rotary Potentiometer|1 |
+| 15|![](/media/907f79d7a0c3500820323343b0ef4681.png ) |Keyestudio IR Receiver |1 |
+|16 |![](/media/8f7396128e7b0c2da1273aa050fa85df.png ) |	Keyestudio Reed Switch Sensor |1 |
+|17 |![](/media/0ef1583b201c7944ba95ac97ee8a4ba8.png ) |	Keyestudio Rotary Encoder Module | 1|
+|18 |![](/media/a3ae6cf394df0cb2d30de18d1ea0b7ef.png ) |	Keyestudio Joystick Module |1 |
+|19 |![](/media/af24d0e4bc9435881820504724ad3fcd.png ) |	Keyestudio HT16K33 8X8 Dot Matrix Module |1 |
+| 20|![](/media/c1d8a69c763b04618d233b77fc97c4ab.png ) |	Keyestudio TM1650 4-Digit Tube Display |1 |
+|21 |![](/media/d1dd4137f10ccce92747bdd07e8738dd.png ) | Keyestudio Thin-film Pressure Sensor|1 |
+|22 |![](/media/aa2ea0a5040ec26cdc6f58256a2b31fc.png ) |	Keyestudio DS1307 Clock Sensor |1 |
+|23 |![](/media/43028b575a82be10e3ce23c40eb30061.png ) |	Keyestudio SR01 Ultrasonic Sensor |1 |
+|24 |![](/media/46f3adcf9fc650b3a89bbde6d66f44ef.png ) |	9G 90° Servo |1 |
+|25 |![](/media/a2a2f1b1f850ae58bc740b16d5eb396c.png ) | 	Keyestudio Capacitive Sensor|1 |
+|26 |![](/media/5702e47b7ebc4b8556ee15f83d030f7f.png ) |	Keyestudio Photo Interrupter |1 |
+|27 |![](/media/f70c9344f352a86cd809f3a2db44e3cb.png ) |	Keyestudio Hall Sensor |1 |
+| 28|![](/media/af90db3a116c8db533c7fea7e65fa99d.png ) |	Keyestudio Flame Sensor | 1|
+|29 |![](/media/17d8f616b3d91fe7b7849fd3da8df695.png) |	Keyestudio line Tracking Sensor |1 |
+|30 |![](/media/ee4483f37a6f3609acdb661095f4b706.png ) | 	Keyestudio Analog Gas Sensor| 1|
+|31 |![](/media/04f2996e6e2b0d8d4b5158728a23e905.png ) |	Keyestudio XHT11 Temperature and Humidity Sensor | 1|
+| 32|![](/media/d892bdfa25f3544ae28aa16d8b1b3c50.png ) |	Keyestudio 18B20 Temperature Sensor |1 |
+| 33|![](/media/cac2d3a8fd0e147e67dc6554caeef395.png ) |	keyestudio 130 Motor |1 |
+|34 |![](/media/16f725d5da5b576a79e9299717d811d7.png) |Fan |1 |
+|35 |![](/media/88abe96ca71fe1b89b23d92c890650ee.png ) |	Keyestudio Laser Module |1 |
+|36 |![](/media/b64cdb5749df7d2b7dd3719216c7aff3.png ) |	Keyestudio Steam Sensor |1 |
+|37 |![](/media/4380c0a29b5226e64113a5b4e7f7a62d.png ) |	Keyestudio Ultraviolet Sensor |1 |
+|38 |![](/media/530cb53e5b1e1b140de487cfc46be453.png ) |	keyestudio RFID Module |1 |
+|39 |![](/media/b57492c3f0fcb41347596e415122794e.png ) |	Raspberry Pi Pico Board |1 |
+|40 |![](/media/8e832bc2c220eb7f18afd18857769b67.png ) |	Keyestudio Raspberry Pico IO Expansion Board |1 |
+|41 |![](/media/10ccf14d80feba64bba0c1eacd02b09d.png ) |	Keyestudio JMFP-4 17-Key Remote Control(without batteries) |1 |
+|42 |![](/media/edbfec59fe015bd9987e4b4d542b466d.png ) |	USB Cable | 1|
+|43 |![](/media/33be6266ae36f54c9e7ffd044eae9320.png ) | 	F-F Dupont Wire|1 |
+|44 |![](/media/ade84f2ad63242834113a981be5d5ef3.png ) | 	White Card| 1|
+|45 |![](/media/026296d61d87b05b5167c6425e8a0bd1.png ) |	ABS RFID Key | 1|
 
 
 ## 3. Preparations
@@ -780,9 +544,9 @@ Move the UF2 file into“RPI-RP2”, and the Raspberry Pi Pico will automaticall
 
 **Connect the Pico from a Raspberry Pi over USB**
 
-The MicroPython firmware is equipped with a virtual USB serial port which is accessed through the micro USB connector on Raspberry Pi Pico. Your computer should notice this serial port and list it as a character device, most likely /dev/ttyACM0.
+The MicroPython firmware is equipped with a virtual USB serial port which is accessed through the micro USB connector on Raspberry Pi Pico. Your computer should notice this serial port and list it as a character device, most likely <span style="color: rgb(255, 76, 65);">/dev/ttyACM0</span>.
 
-You can run ls /dev/tty\* to list your serial ports. There may be quite a few, but MicroPython’s USB serial will start with /dev/ttyACM. If in doubt, unplug the micro USB connector and see which one disappears. If you don’t see anything, you can try rebooting your Raspberry Pi.
+You can run <span style="color: rgb(255, 76, 65);">ls /dev/tty\*</span> to list your serial ports. There may be quite a few, but MicroPython’s USB serial will start with <span style="color: rgb(255, 76, 65);">/dev/ttyACM</span>. If in doubt, unplug the micro USB connector and see which one disappears. If you don’t see anything, you can try rebooting your Raspberry Pi.
 
 Enter the following command to install minicom:
 
@@ -941,7 +705,7 @@ When using sensors, we can import the corresponding modules directly.
 
 ![](/media/2d5a05351f23a99bddb011d6186c685a.png)
 
-We save all the code in this tutorial to the Raspberry Pi. Open the terminal and create a folder in /home/pi.
+We save all the code in this tutorial to the Raspberry Pi. Open the terminal and create a folder in <span style="color: rgb(0, 209, 0);">**/home/pi**</span>.
 
 ![](/media/19c626dbfa3928bb73e86e3f5f67f8af.png)
 
@@ -993,7 +757,7 @@ As shown below, stack the Raspberry Pi Pico board onto the Raspberry Pi Pico shi
 
 There are 37 sensors and modules in this kit. Next, we will analyze and introduce how they work step by step. Interface sensors with the Raspberry Pi Pico board and the Pico shield, run test codes and observe experimental phenomenon.
 
-**Note: please wire up components according to the given connection diagrams.**
+**<span style="color: rgb(255, 76, 65);">Note:</span> please wire up components according to the given connection diagrams.**
 
 ### Project 1: Lighting up LED
 
@@ -1039,6 +803,10 @@ The triode Q1 is equal to a switch and R1 and R3 stand for limited resistors whi
 </table>
 
 (<span style="color: rgb(255, 76, 65);">Note:</span> in all experiments, the microUSB cable is connected to the pico via a Raspberry Pi, and the 3p Dupont wire is torn from a 40P Dupont wire.)
+
+<br>
+<br>
+
 
 **4. Wiring Diagram**
 
@@ -1164,6 +932,9 @@ In previous lesson, we already know how to control an LED. In this part, we only
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/9f7d4dcfe9b1a7a708f1d7bb008588bc.png)
@@ -1259,6 +1030,9 @@ We can see the circuit schematic diagram of this module which is very similar to
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Connection Diagram**
 
 ![](/media/56a32f3859169de574822242faad6630.png)
@@ -1331,6 +1105,9 @@ The button module has four pins. The pin 1 is connected to the pin 3 and the pin
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -1418,6 +1195,9 @@ When our fingers touch the module, the signal S outputs high levels, the red LED
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Connection Diagram**
 
 ![](/media/c47a7e69ffa79fd05fe420aaec4948b8.png)
@@ -1494,6 +1274,9 @@ When the receiver RX meets the weak signals reflected back, the receiving pin wi
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -1578,6 +1361,9 @@ When a black or no object is detected, the signal terminal will output high leve
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/6419b67e57f34fbed9f04913ed55a404.png)
@@ -1655,6 +1441,9 @@ When the paper is put in the slot, C is connected with VCC and the signal end S 
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/a391decf73d6630e4e046aaceff5ca3b.png)
@@ -1669,49 +1458,13 @@ Find **Photo\_Interrupt.py**，double-click it and click![](/media/d1dbbae869194
 
 Logic setting:
 
-<table>
-<tbody>
-<tr class="odd">
-<td>Initial Setting</td>
-<td>Set PushCounter to 0</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Set State to 0 (value of the sensor)</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Set lastState to 0</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>when an object enters the slot</td>
-<td>lastState is 0，State turns into 1; lastState turns into 1</td>
-<td><p>Set PushCounter to PushCounter+1</p>
-<p>print the value of PushCounter</p></td>
-</tr>
-<tr class="odd">
-<td>when the object leaves the slot</td>
-<td>lastState is 1，State becomes 0，two data are not equal，lastState turns into 0.</td>
-<td><p>PushCounterdoesn’t change;</p>
-<p>Don’t print the value of PushCounter</p></td>
-</tr>
-<tr class="even">
-<td>When the object goes through this slot again</td>
-<td>lastState is 0, State becomes 1，two data are not equal，lastState turns into 1.</td>
-<td><p>Set PushCounter to PushCounter+1</p>
-<p>And print the value of PushCounter</p></td>
-</tr>
-<tr class="odd">
-<td>When the object leaves this slot again</td>
-<td>lastState is 1，State turns into 0，two data are not equal lastState turns into 0</td>
-<td><p>PushCounter doesn’t change;</p>
-<p>Don’t print the PushCounter value</p></td>
-</tr>
-</tbody>
-</table>
+|Initial Setting | Set PushCounter to 0; Set State to 0 (value of the sensor);Set lastState to 0|   |
+| :--: | :--: | :--: |
+| when an object enters the slot |lastState is 0，State turns into 1; lastState turns into 1 | Set PushCounter to PushCounter+1;print the value of PushCounter |
+| when the object leaves the slot | lastState is 1，State becomes 0，two data are not equal，lastState turns into 0. | PushCounterdoesn’t change;Don’t print the value of PushCounter |
+| When the object goes through this slot again | lastState is 0, State becomes 1，two data are not equal，lastState turns into 1. | Set PushCounter to PushCounter+1; And print the value of PushCounter|
+| When the object leaves this slot again | lastState is 1，State turns into 0，two data are not equal lastState turns into 0 | PushCounter doesn’t change; Don’t print the PushCounter value|
+
 
 **7. Test Result**
 
@@ -1779,6 +1532,9 @@ The working principle is pretty simple. When pin 1 and 2 of the ball switch P1 a
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -1860,6 +1616,9 @@ The stronger the magnetic field strength is, induction distance is longer.
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -1944,6 +1703,9 @@ Reed switch is an abbreviation of the dry reed contacts a passive electronic swi
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -2030,6 +1792,9 @@ When one is detected or an infrared signal is received, and pin 1 of the sensor 
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/a5f247d1b76d442ec075ec29653648ba.png)
@@ -2112,6 +1877,9 @@ When we output a high level from the IO port to the triode, the buzzer will emit
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/e816661c31698424ee1c710228679e7d.png)
@@ -2189,6 +1957,9 @@ In fact, it is similar to a passive buzzer. The active buzzer has its own oscill
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -2397,6 +2168,9 @@ For our experiment, we will control the RGB module to display different colors t
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/9c7dfc42ed6ec851da62244db01ca496.png)
@@ -2545,6 +2319,9 @@ changes(0-3.3V) which are analog quantity.
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/fd0b5491083835560e344ed545f5da01.png)
@@ -2632,6 +2409,9 @@ It can also detect steam in the air. Two position holes are used to install on t
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/506b3ebf75246b8fe2b8b024b41dc276.png)
@@ -2707,6 +2487,9 @@ We build the circuit with the LM386 chip and amplify the sound through the high-
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/00ef9bf64d6866acfed596128fbb0401.png)
@@ -2776,6 +2559,9 @@ If there is no light, the resistance is 0.2MΩ and the detected voltage at the t
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -2852,6 +2638,9 @@ This sensor uses the characteristics of NTC-MF52AT thermistor element to convert
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -2932,6 +2721,9 @@ When the sensor is pressed by external forces, the resistance value of sensor wi
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/445c732571d879e6f5708af6f10fb03d.png)
@@ -3010,6 +2802,9 @@ From the below figure, power up. When detecting fire, the digital pin outputs lo
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -3098,6 +2893,9 @@ When in use, the A0 terminal reads the analog value of the corresponding gas; th
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/ebd6c2127842acc8011cf7a2aa5d9c2d.png)
@@ -3182,6 +2980,9 @@ In fact, its working principle is very simple. Its inside structure is equivalen
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -3269,6 +3070,9 @@ The output current of the UV sensor is proportional to the light intensity, and 
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/0394987102b736d2f122daf2e3ef55f7.png)
@@ -3355,6 +3159,9 @@ The data protocol adopts a single-wire zero-code communication method. After the
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -3500,6 +3307,9 @@ The incremental encoder converts the displacement into a periodic electric signa
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -3855,6 +3665,9 @@ The rotation angle of servo motor is controlled by regulating the duty cycle of 
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/a3bd832d331618aa588e222b097ab0e5.png)
@@ -4015,6 +3828,9 @@ The HC-SR04 ultrasonic ranging module can provide a non-contact distance sensing
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/43d54e1cb123332f30da8af5240f4b28.png)
@@ -4116,6 +3932,9 @@ The main part of the IR remote control system is modulation, transmission and re
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -4248,6 +4067,9 @@ data, S represents positive and negative temperature, and the resolution is 2﹣
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Connection Diagram**
 
@@ -4501,6 +4323,9 @@ Operation process: A complete data transmission is 40bit, high bit first out. Da
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Connection Diagram**
 
 ![](/media/3a4e83e206100aff0ddd3468787bea43.png)
@@ -4728,6 +4553,9 @@ SQW/OUT: square waves/output drivers
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **5. Wiring Diagram**
 
@@ -5053,6 +4881,9 @@ bit\[0\]：start the display of the tube display
 </tbody>
 </table>
 
+<br>
+<br>
+
 **4. Wiring Diagram**
 
 ![](/media/fa5d4a6dddd43851d68a6fa82b90d13e.png)
@@ -5288,111 +5119,10 @@ Therefore, we designed this module, using the HT16K33 chip to drive an 8\*8 dot 
 
 There are three DIP switches on the module, all of which are set to I2C communication address. The setting method is shown below.
 
-A0，A1and A2 are grounded, that is, the address is 0x70
+A0，A1and A2 are grounded, that is, the address is 0x70.
 
-<table>
-<tbody>
-<tr class="odd">
-<td>A0（1）</td>
-<td>A1（2）</td>
-<td>A2（3）</td>
-<td>A0（1）</td>
-<td>A1（2）</td>
-<td>A2（3）</td>
-<td>A0（1）</td>
-<td>A1（2）</td>
-<td>A2（3）</td>
-</tr>
-<tr class="even">
-<td>0（OFF）</td>
-<td>0（OFF）</td>
-<td>0（OFF）</td>
-<td>1（ON）</td>
-<td>0（OFF）</td>
-<td>0（OFF）</td>
-<td>0（OFF）</td>
-<td>1（ON）</td>
-<td>0（OFF）</td>
-</tr>
-<tr class="odd">
-<td>OX70</td>
-<td>OX71</td>
-<td>OX72</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>A0（1）</td>
-<td>A1（2）</td>
-<td>A2（3）</td>
-<td>A0（1）</td>
-<td>A1（2）</td>
-<td>A2（3）</td>
-<td>A0（1）</td>
-<td>A1（2）</td>
-<td>A2（3）</td>
-</tr>
-<tr class="odd">
-<td>1（ON）</td>
-<td>1（ON）</td>
-<td>0（OFF）</td>
-<td>0（OFF）</td>
-<td>0（OFF）</td>
-<td>1（ON）</td>
-<td>1（ON）</td>
-<td>0（OFF）</td>
-<td>1（ON）</td>
-</tr>
-<tr class="even">
-<td>OX73</td>
-<td>OX74</td>
-<td>OX75</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>A0（1）</td>
-<td>A1（2）</td>
-<td>A2（3）</td>
-<td>A0（1）</td>
-<td>A1（2）</td>
-<td>A2（3）</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>0（OFF）</td>
-<td>1（ON）</td>
-<td>1（ON）</td>
-<td>1（ON）</td>
-<td>1（ON）</td>
-<td>1（ON）</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>OX76</td>
-<td>OX77</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+![Img](./media/img-20231026161025.png)
+
 
 **3. Components**
 
@@ -5416,6 +5146,9 @@ A0，A1and A2 are grounded, that is, the address is 0x70
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Wiring Diagram**
 
@@ -5800,6 +5533,9 @@ Radio frequency identification, the card reader is composed of a radio frequency
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **4. Connection Diagram**
 
@@ -6878,6 +6614,9 @@ In this lesson, we will make an extension experiment with a button and an LED. W
 </tbody>
 </table>
 
+<br>
+<br>
+
 **3. Wiring Diagram**
 
 ![](/media/c91cc54b02a47f17fa18e8cef0dcd74b.png)
@@ -6956,6 +6695,9 @@ In the previous experiment, we control an output module though an input module. 
 </tbody>
 </table>
 
+<br>
+<br>
+
 **3. Wiring Diagram**
 
 ![](/media/1fc50389eb7dfa837dd682e01c792f97.png)
@@ -7019,6 +6761,9 @@ We can use a UV sensor to control the buzzer to achieve the effect of UV alarm.
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **3. Connection Diagram**
 
@@ -7097,6 +6842,9 @@ In this experiment, we will control an active buzzer and an on-board LED through
 </tbody>
 </table>
 
+<br>
+<br>
+
 **3. Connection Diagram**
 
 ![](/media/233a63d63f3aa4fa4113b459173ecd5a.png)
@@ -7150,6 +6898,7 @@ Run the test code, the LED light will flash slowly, and the interrupt trigger mo
         buzzer.value(0)
         utime.sleep(2)
 
+
 ### Project 43: Speaker Module
 
 ![](/media/7009513ee4deade529bb95ea74dfe58e.jpeg)
@@ -7162,277 +6911,24 @@ The frequency of each tone is shown below.
 
 Bass:
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p>Key</p>
-<p>Note</p></td>
-<td>1<sub>#</sub></td>
-<td>2<sub>#</sub></td>
-<td>3<sub>#</sub></td>
-<td>4<sub>#</sub></td>
-<td>5<sub>#</sub></td>
-<td>6<sub>#</sub></td>
-<td>7<sub>#</sub></td>
-</tr>
-<tr class="even">
-<td>A</td>
-<td>221</td>
-<td>248</td>
-<td>278</td>
-<td>294</td>
-<td>330</td>
-<td>371</td>
-<td>416</td>
-</tr>
-<tr class="odd">
-<td>B</td>
-<td>248</td>
-<td>278</td>
-<td>294</td>
-<td>330</td>
-<td>371</td>
-<td>416</td>
-<td>467</td>
-</tr>
-<tr class="even">
-<td>C</td>
-<td>131</td>
-<td>147</td>
-<td>165</td>
-<td>175</td>
-<td>196</td>
-<td>221</td>
-<td>248</td>
-</tr>
-<tr class="odd">
-<td>D</td>
-<td>147</td>
-<td>165</td>
-<td>175</td>
-<td>196</td>
-<td>221</td>
-<td>248</td>
-<td>278</td>
-</tr>
-<tr class="even">
-<td>E</td>
-<td>165</td>
-<td>175</td>
-<td>196</td>
-<td>221</td>
-<td>248</td>
-<td>278</td>
-<td>312</td>
-</tr>
-<tr class="odd">
-<td>F</td>
-<td>175</td>
-<td>196</td>
-<td>221</td>
-<td>234</td>
-<td>262</td>
-<td>294</td>
-<td>330</td>
-</tr>
-<tr class="even">
-<td>G</td>
-<td>196</td>
-<td>221</td>
-<td>234</td>
-<td>262</td>
-<td>294</td>
-<td>330</td>
-<td>371</td>
-</tr>
-</tbody>
-</table>
+![Img](./media/img-20231026161432.png)
+
+![Img](./media/img-20231026161448.png)
+
 
 Midrange :
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p>Key</p>
-<p>Note</p></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>A</td>
-<td>441</td>
-<td>495</td>
-<td>556</td>
-<td>589</td>
-<td>661</td>
-<td>724</td>
-<td>833</td>
-</tr>
-<tr class="odd">
-<td>B</td>
-<td>495</td>
-<td>556</td>
-<td>624</td>
-<td>661</td>
-<td>724</td>
-<td>833</td>
-<td>935</td>
-</tr>
-<tr class="even">
-<td>C</td>
-<td>262</td>
-<td>294</td>
-<td>330</td>
-<td>350</td>
-<td>393</td>
-<td>441</td>
-<td>495</td>
-</tr>
-<tr class="odd">
-<td>D</td>
-<td>294</td>
-<td>330</td>
-<td>350</td>
-<td>393</td>
-<td>441</td>
-<td>495</td>
-<td>556</td>
-</tr>
-<tr class="even">
-<td>E</td>
-<td>330</td>
-<td>350</td>
-<td>393</td>
-<td>441</td>
-<td>495</td>
-<td>556</td>
-<td>624</td>
-</tr>
-<tr class="odd">
-<td>F</td>
-<td>350</td>
-<td>393</td>
-<td>441</td>
-<td>495</td>
-<td>556</td>
-<td>624</td>
-<td>661</td>
-</tr>
-<tr class="even">
-<td>G</td>
-<td>393</td>
-<td>441</td>
-<td>495</td>
-<td>556</td>
-<td>624</td>
-<td>661</td>
-<td>724</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+![Img](./media/img-20231026161521.png)
+
+![Img](./media/img-20231026161544.png)
+
 
 Treble:
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p>Key</p>
-<p>Note</p></td>
-<td>1<sup>#</sup></td>
-<td>2<sup>#</sup></td>
-<td>3<sup>#</sup></td>
-<td>4<sup>#</sup></td>
-<td>5<sup>#</sup></td>
-<td>6<sup>#</sup></td>
-<td>7<sup>#</sup></td>
-</tr>
-<tr class="even">
-<td>A</td>
-<td>882</td>
-<td>990</td>
-<td>1112</td>
-<td>1178</td>
-<td>1322</td>
-<td>1484</td>
-<td>1665</td>
-</tr>
-<tr class="odd">
-<td>B</td>
-<td>990</td>
-<td>1112</td>
-<td>1178</td>
-<td>1322</td>
-<td>1484</td>
-<td>1665</td>
-<td>1869</td>
-</tr>
-<tr class="even">
-<td>C</td>
-<td>525</td>
-<td>589</td>
-<td>661</td>
-<td>700</td>
-<td>786</td>
-<td>882</td>
-<td>990</td>
-</tr>
-<tr class="odd">
-<td>D</td>
-<td>589</td>
-<td>661</td>
-<td>700</td>
-<td>786</td>
-<td>882</td>
-<td>990</td>
-<td>1112</td>
-</tr>
-<tr class="even">
-<td>E</td>
-<td>661</td>
-<td>700</td>
-<td>786</td>
-<td>882</td>
-<td>990</td>
-<td>1112</td>
-<td>1248</td>
-</tr>
-<tr class="odd">
-<td>F</td>
-<td>700</td>
-<td>786</td>
-<td>882</td>
-<td>935</td>
-<td>1049</td>
-<td>1178</td>
-<td>1322</td>
-</tr>
-<tr class="even">
-<td>G</td>
-<td>786</td>
-<td>882</td>
-<td>990</td>
-<td>1049</td>
-<td>1178</td>
-<td>1322</td>
-<td>1484</td>
-</tr>
-</tbody>
-</table>
+![Img](./media/img-20231026161621.png)
+
+![Img](./media/img-20231026161632.png)
+
 
 Beats are the time delay for each note. The larger the number, the longer the delay time. A note without a line in the spectrum is a beat, with a delay of 1s. while a beat with an underline is 1/2 of a beat without a line, with a delay of 0.5s, and a beat with two underlines is 1/4 of a beat without a line, with a delay of 0.25s. The 1/8 of a beat is with a delay of 0.125s.
 
@@ -7458,6 +6954,9 @@ We will take Happy Birthday Song as an example.
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **3. Connection Diagram**
 
@@ -7575,6 +7074,9 @@ After the code is set successfully, we can control the brightness of the LED on 
 </tbody>
 </table>
 
+<br>
+<br>
+
 **3. Connection Diagram**
 
 ![](/media/7a22c3f5cc7105696684fa461594016e.jpeg)
@@ -7671,6 +7173,9 @@ In life, we can see all kinds of smart products, such as smart home. Smart homes
 </tbody>
 </table>
 
+<br>
+<br>
+
 **3. Connection Diagram**
 
 ![](/media/5b7ef53f84cb0dc5bafb9b1fc6f72958.png)
@@ -7744,6 +7249,9 @@ In this lesson, we will make a smart sound activated light using a sound sensor 
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **3. Connection Diagram**
 
@@ -7841,6 +7349,9 @@ In this experiment, we will make a fire alarm system. Just use a flame sensor to
 </tbody>
 </table>
 
+<br>
+<br>
+
 **3. Connection Diagram**
 
 ![](/media/949b1d4ea2ce2839c0327456dc803230.png)
@@ -7926,6 +7437,9 @@ In this experiment, we will make a smoke alarm by a TM16504-Digit segment module
 </tbody>
 </table>
 
+<br>
+<br>
+
 **3. Connection Diagram**
 
 ![](/media/6a3162e64cbf27036ef9df7364466c83.png)
@@ -8007,6 +7521,9 @@ In this experiment, we will make a fire alarm system. Just use a flame sensor to
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **3. Wiring Diagram**
 
@@ -8245,6 +7762,9 @@ We learned how to use the 6812 RGB module, we knew that this module can light up
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **3. Connection Diagram**
 
@@ -8714,6 +8234,9 @@ When we receive a value, we set the PWM value by the corresponding button value,
 </tbody>
 </table>
 
+<br>
+<br>
+
 **3. Connection Diagram**
 
 ![](/media/3151c2409f0d69871f3b23237ac1014c.jpeg)
@@ -8853,6 +8376,9 @@ We will use a temperature sensor and some modules to make a smart cooling device
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **3. Connection Diagram**
 
@@ -9111,6 +8637,9 @@ In this project, we use the RFID522 card swiping module and the servo to set up 
 </tbody>
 </table>
 
+<br>
+<br>
+
 **3. Wiring Diagram**
 
 ![](/media/767a8adc302e88943bd4bd9a07b91895.png)
@@ -9245,6 +8774,9 @@ We did a lot of experiments, and for each one we needed to re-upload the code, s
 </tr>
 </tbody>
 </table>
+
+<br>
+<br>
 
 **3. Connection Diagram**
 
